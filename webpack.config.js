@@ -17,6 +17,10 @@ module.exports = {
             {
                 test: /\.html$/,
                 use: ["html-loader"]
+            },
+            {
+                test: /\.wav$/,
+                use: ["file-loader"]
             }
         ]
     },
